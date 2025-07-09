@@ -16,6 +16,7 @@ import youtube from "../assets/youtube.png";
 import forest from "../assets/forest.png";
 import lorry from "../assets/lorry.png";
 import runn from "../assets/runn.png";
+import bg2 from "../assets/bg2.png";
 
 const Home = () => {
   return (
@@ -219,13 +220,54 @@ const Home = () => {
   </div>
 </div>
 
+<div
+  className="con4 w-[1440px] h-[717px] mx-auto flex justify-center items-center text-black"
+  style={{ backgroundImage: `url(${bg2})` }}
+>
+  <div className="w-[505px] h-auto bg-white px-[28px] py-[53px]">
+    <p className="text-[23px] font-bold w-[370px]">
+      Получите эксклюзивное предложение на тренажеры TRUE FITNESS
+    </p>
+    <p className="text-[13px] font-bold mt-[27px] w-[400px]">
+      Мы будем рады проконсультировать Вас и помочь с подбором оборудования
+    </p>
 
+    <form className="w-full mt-[36px] flex flex-col items-center space-y-[20px]">
+      <input
+        type="text"
+        className="w-full max-w-[450px] h-[60px] bg-[#D9D9D9] text-[22px] font-semibold text-black placeholder:text-black px-4"
+        placeholder="Имя"
+      />
+      <input
+        type="email"
+        className="w-full max-w-[450px] h-[60px] bg-[#D9D9D9] text-[22px] font-semibold text-black placeholder:text-black px-4"
+        placeholder="E-mail"
+      />
+      <input
+        type="text"
+        className="w-full max-w-[450px] h-[60px] bg-[#D9D9D9] text-[22px] font-semibold text-black placeholder:text-black px-4"
+        placeholder="🇺🇿 +998 (99)-999-99-99"
+      />
+      <button
+        type="submit"
+        className="w-full max-w-[450px] h-[60px] bg-[#01AEE7] text-[24px] font-semibold text-white"
+      >
+        Отправить
+      </button>
+    </form>
+
+    <p className="text-[13px] mt-[22px] max-w-[450px]">
+      «Нажимая на кнопку, вы даете согласие на обработку персональных данных и
+      соглашаетесь c политикой конфиденциальности»
+    </p>
+  </div>
+</div>
 
       
 
       <footer className="bg-[#00B4EB] text-white py-10 px-20 text-[14px] w-[1440px] h-[383px] mx-auto">
         <div className="flex flex-wrap justify-between gap-10">
-   ``
+   
           <div>
             <h3 className="font-bold mb-4">КАТАЛОГ ТОВАРОВ</h3>
             <ul className="space-y-2">
